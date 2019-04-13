@@ -8,11 +8,11 @@
 
 quakeCfg = input("Quake CFG 1:\n")
 sofCfg = input("SoF2 CFG 2:\n")
-overwrittenCfg = input("Name crafted CFG:\n")
+newCfg = input("Name crafted CFG:\n")
 
 a = open(quakeCfg, 'r')
 b = open(sofCfg, 'r')
-c = open(overwrittenCfg, 'w')
+c = open(newCfg, 'w')
 
 l1 = a.readlines()
 l2 = b.readlines()
