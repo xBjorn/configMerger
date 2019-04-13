@@ -8,7 +8,7 @@
 
 quakeCfg = input("Quake CFG 1:\n")
 sofCfg = input("SoF2 CFG 2:\n")
-overwrittenCfg = input("Name submerged CFG:\n")
+overwrittenCfg = input("Name crafted CFG:\n")
 
 a = open(quakeCfg, 'r')
 b = open(sofCfg, 'r')
